@@ -1,0 +1,4 @@
+pyinstaller --windowed --name "邮件监控系统" --clean --add-data "attachments;attachments" --hidden-import babel.numbers --hidden-import tkcalendar main.py
+
+
+pyinstaller --windowed --name "邮件监控系统" --clean --add-data "attachments;attachments" --hidden-import babel.numbers --hidden-import tkcalendar --icon="icon.ico" main.py
