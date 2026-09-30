@@ -5,7 +5,7 @@ a = Analysis(
     ['main.py'],
     pathex=[],
     binaries=[],
-    datas=[('attachments', 'attachments')],
+    datas=[('icon.ico', '.')],
     hiddenimports=['babel.numbers', 'tkcalendar'],
     hookspath=[],
     hooksconfig={},
